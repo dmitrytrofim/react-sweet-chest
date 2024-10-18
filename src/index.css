@@ -27,6 +27,7 @@
 
  --b-000: #000;
  --b-fff: #fff;
+ --b-081130: #081130;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -69,7 +70,7 @@
   @apply w-[7px];
  }
  body {
-  @apply font-montserrat font-400 text-16 leading-n text-[var(--t-000)] bg-[var(--b-fff)];
+  @apply font-montserrat font-400 text-16 leading-n text-[var(--t-fff)] bg-[var(--b-081130)];
  }
  body.j-lock {
   overflow: hidden;
