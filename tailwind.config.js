@@ -4,10 +4,23 @@ export default {
  theme: {
   extend: {},
   fontFamily: {
-   sans: ['', 'sans-serif'],
+   montserrat: ['Montserrat', 'sans-serif'],
   },
   fontSize: {
+   11: 'var(--sz-11)',
+   12: 'var(--sz-12)',
+   13: 'var(--sz-13)',
+   14: 'var(--sz-14)',
+   15: 'var(--sz-15)',
    16: 'var(--sz-16)',
+   18: 'var(--sz-18)',
+   20: 'var(--sz-20)',
+   21: 'var(--sz-21)',
+   23: 'var(--sz-23)',
+   24: 'var(--sz-24)',
+   30: 'var(--sz-30)',
+   36: 'var(--sz-36)',
+   48: 'var(--sz-48)',
   },
   colors: {
    trp: 'transparent',

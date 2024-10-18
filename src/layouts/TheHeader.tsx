@@ -4,7 +4,12 @@ function Header() {
  return (
   <header className="">
    <Container>
-    <div className=""></div>
+    <div className="">
+     <a href="#" className="">
+      Сладкий сундук
+     </a>
+     <address className=""></address>
+    </div>
    </Container>
   </header>
  );
